@@ -1,8 +1,8 @@
 body {
-    background: hsl(191, 37%, 79%);
-    color: rgb(74, 109, 118);
+    background: hsl(215, 54%, 74%);
+    color: rgb(36, 44, 119);
     padding: 10px;
-    font-family: Monospace;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size:16px;
 }
 #all-contents {
@@ -12,7 +12,7 @@ body {
 
 /* navigation menu */
 nav {
-    background: rgb(103, 107, 189);
+    background: rgb(103, 124, 243);
    margin: 20px;
     display: flex;
     padding: 10px;
@@ -38,7 +38,7 @@ a {
 
 /* main container area beneath menu */
 main {
-    background: rgb(245, 238, 219);
+    background: #7fa2fc;
     display: flex;
 }
 .sidebar {
@@ -55,7 +55,7 @@ main {
 
 /* portfolio styles */
 #interests {
-    border: 4px silver ridge;
+    border: 4px rgb(255, 255, 255) ridge;
     padding: 8px;
 }
 h2, h3 {
@@ -64,3 +64,84 @@ h2, h3 {
 .column {
     float: left;
   }
+  img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+  }
+  
+  <img class src="paris.jpg" alt="Paris">
+           /* portfolio styles */
+           .content h1 {
+            color: rgb(30, 28, 54);
+        }
+
+        #portfolio {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        #portfolio li {
+            background: #5571be;
+            padding: 10px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        #portfolio li:hover {
+            background: #dbdbea;
+        }
+
+        #portfolio a {
+            text-decoration: none;
+            color: #e9e6f2;
+        }
+                    /* responsive web design */
+                    @media screen and (min-width: 120px) and (max-width: 1080px) {
+                        main {
+                          height: 100ch;
+                          zoom: 1.5;
+                          display: grid;
+                        }
+          
+                        h1 {
+                          font-size: 44px;
+                        }
+          
+                        h2 {
+                          font-size: 42px;
+                        }
+          
+                        h3 {
+                          font-size: 36px;
+                        }
+          
+                        #all-contents {
+                          height: 100ch;
+                          margin: none;
+                        }
+          
+                        a {
+                          font-size: 42px;
+                        }
+          
+                        .sidebar {
+                          margin-right: 0px;
+                          justify-content: center;
+                          align-items: center;
+                        }
+          
+                        .sidebar-img {
+                          width: 100%;
+                        }
+          
+                        p,
+                        li {
+                          font-size: 24px;
+                        }
+          
+                        .content {
+                          align-content: center;
+                          justify-content: center;
+                        
