@@ -38,10 +38,16 @@ $(function () {
     // Create platforms
     // You must decide the x position, y position, width, and height of the platforms
     // example usage: createPlatform(x,y,width,height)
-
-
-
-    
+    createPlatform(200, 650 ,50, 20);// short but wide platforms located 500from the left of the screen and 300 pixel from the top of the screen
+    createPlatform(350, 600 ,600, 20);// short but wide platforms located 500from the left of the screen and 300 pixel from the top of the screen
+    createPlatform(1070, 550 ,50, 20);// short but wide platforms located 500from the left of the screen and 300 pixel from the top of the screen
+    createPlatform(850, 470 ,50, 20);// short but wide platforms located 500from the left of the screen and 300 pixel from the top of the screen
+    createPlatform(160, 400 ,600, 20);// short but wide platforms located 500from the left of the screen and 300 pixel from the top of the screen
+    createPlatform(10, 320 ,40, 20);// short but wide platforms located 500from the left of the screen and 300 pixel from the top of the screen
+    createPlatform(100, 200 ,30, 20);// short but wide platforms located 500from the left of the screen and 300 pixel from the top of the screen
+    createPlatform(10, 100 ,10, 15);// short but wide platforms located 500from the left of the screen and 300 pixel from the top of the screen
+    createPlatform(250, 180 ,350, 20);// short but wide platforms located 500from the left of the screen and 300 pixel from the top of the screen
+    createPlatform(700, 180 ,300, 20);// short but wide platforms located 500from the left of the screen and 300 pixel from the top of the screen
     // TODO 2
     // Create collectables
     // You must decide on the collectable type, the x position, the y position, the gravity, and the bounce strength
