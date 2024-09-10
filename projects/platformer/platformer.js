@@ -42,7 +42,7 @@ $(function () {
     createPlatform(350, 600 ,600, 20);// short but wide platforms located 500from the left of the screen and 300 pixel from the top of the screen
     createPlatform(1070, 550 ,50, 20);// short but wide platforms located 500from the left of the screen and 300 pixel from the top of the screen
     createPlatform(850, 450 ,50, 20);// short but wide platforms located 500from the left of the screen and 300 pixel from the top of the screen
-    createPlatform(160, 400 ,600, 20);// short but wide platforms located 500from the left of the screen and 300 pixel from the top of the screen
+    
     createPlatform(10, 320 ,40, 20);// short but wide platforms located 500from the left of the screen and 300 pixel from the top of the screen
     createPlatform(100, 200 ,30, 20);// short but wide platforms located 500from the left of the screen and 300 pixel from the top of the screen
     createPlatform(10, 100 ,10, 15);// short but wide platforms located 500from the left of the screen and 300 pixel from the top of the screen
@@ -51,8 +51,11 @@ $(function () {
     createPlatform(1100, 100 ,50, 20);// short but wide platforms located 500from the left of the screen and 300 pixel from the top of the screen
     createPlatform(500, 550 ,10, 60);// short but wide platforms located 500from the left of the screen and 300 pixel from the top of the screen
     createPlatform(700, 550 ,10, 60);// short but wide platforms located 500from the left of the screen and 300 pixel from the top of the screen
-    createPlatform(500, 330 ,10, 70);// short but wide platforms located 500from the left of the screen and 300 pixel from the top of the screen
-    createPlatform(300, 330 ,10, 70);// short but wide platforms located 500from the left of the screen and 300 pixel from the top of the screen
+    createPlatform(600, 400 ,50, 20);// short but wide platforms located 500from the left of the screen and 300 pixel from the top of the screen
+    createPlatform(400, 400 ,50, 20);
+
+   
+    createPlatform(700, 330 ,20, 20);// short but wide platforms located 500from the left of the screen and 300 pixel from the top of the screen
     createPlatform(850, 120 ,7, 60);// short but wide platforms located 500from the left of the screen and 300 pixel from the top of the screen
     createPlatform(400, 120 ,7, 60);// short but wide platforms located 500from the left of the screen and 300 pixel from the top of the screen
     // TODO 2
@@ -69,8 +72,8 @@ $(function () {
     // You must decide the wall you want the cannon on, the position on the wall, and the time between shots in milliseconds
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay, width, height)
-    createCannon("right", 550, 1700, 40, 40)
-
+    createCannon("right", 550, 2000, 40, 40)
+    createCannon("right", 200, 2000, 40, 40)
 
 
     
