@@ -63,8 +63,8 @@ $(function () {
     // You must decide on the collectable type, the x position, the y position, the gravity, and the bounce strength
     // Your collectable choices are 'database' 'diamond' 'grace' 'kennedi' 'max' and 'steve'; more can be added if you wish
     // example usage: createCollectable(type, x, y, gravity, bounce)
-    createCollectable("diamond", 0,200)
-
+    createCollectable("diamond", 0,50)
+    createCollectable("diamond", 1100,50)
 
     
     // TODO 3
