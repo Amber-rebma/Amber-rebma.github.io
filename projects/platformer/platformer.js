@@ -65,7 +65,7 @@ $(function () {
     // example usage: createCollectable(type, x, y, gravity, bounce)
     createCollectable("diamond", 0,50)
     createCollectable("diamond", 1100,50)
-
+    createCollectable("diamond", 200,50)
     
     // TODO 3
     // Create cannons
@@ -74,6 +74,7 @@ $(function () {
     // example usage: createCannon(side, position, delay, width, height)
     createCannon("right", 550, 2000, 40, 40)
     createCannon("left", 270, 3500, 40, 40)
+    createCannon("left", 650, 6000, 40, 40)
 
 
     
